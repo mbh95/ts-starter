@@ -4,7 +4,10 @@
   "description": "TypeScript starter project.",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "check": "gts check",
+    "clean": "gts clean",
+    "fix": "gts fix"
   },
   "author": "Matt Hammond",
   "license": "MIT",
@@ -16,6 +19,8 @@
     "webpack": "^4.39.1",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.8.0",
-    "webpack-merge": "^4.2.1"
+    "webpack-merge": "^4.2.1",
+    "gts": "^1.1.0",
+    "@types/node": "^10.0.3"
   }
 }
