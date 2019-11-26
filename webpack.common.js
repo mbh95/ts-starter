@@ -12,7 +12,14 @@ module.exports = {
         test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/
-      }
+      },
+      {
+        test: [/.css$/],
+        use:[
+          'style-loader',
+          'css-loader'
+        ]
+      },
     ]
   },
   resolve: {
@@ -21,8 +28,8 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-                            template: 'src/index.html'
-                          }),
+      template: 'src/index.html'
+    }),
   ],
   output: {
     filename: '[name].[contenthash].js',
