@@ -1,5 +1,5 @@
 # ts-starter
-A TypeScript starter project with Webpack.
+A TypeScript starter project for client-side apps with Webpack, Jest, and ESLint.
 
 If you aren't me then you can just fork this repo and start coding!
 
