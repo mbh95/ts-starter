@@ -1,9 +1,11 @@
 # ts-starter
 A TypeScript starter project for client-side apps with Webpack, Jest, and ESLint.
 
-If you aren't me then you can just fork this repo and start coding!
+# How-to
+Just click "Use this template" button on GitHub!
 
-If you're me then follow these steps to add this repo as an Upstream remote:
+# Old-fashioned way
+If you'd rather do this the old-fashioned way and add this repo as an upstream remote:
 
 1.  Create a new repo at `<new-url>`
 1.  `git clone <new-url> <new-repo>`
