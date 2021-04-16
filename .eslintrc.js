@@ -1,17 +1,16 @@
-{
-  "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "@typescript-eslint"
+module.exports = {
+  root: true,
+  parser: '@typescript-eslint/parser',
+  plugins: [
+    '@typescript-eslint',
   ],
-  "extends": [
-    "recommended",
-    "plugin:@typescript-eslint/recommended"
+  extends: [
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
-  "rules": {
+  env: {
+    browser: true,
+    node: true,
+    amd: true
   },
-  "env": {
-    "browser": true,
-    "amd": true,
-    "node": true
-  }
-}
+};
