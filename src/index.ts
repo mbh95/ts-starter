@@ -9,6 +9,6 @@ function component(): HTMLDivElement {
 
     element.appendChild(btn);
     return element;
-  }
+}
 
-  document.body.appendChild(component());
+document.body.appendChild(component());
